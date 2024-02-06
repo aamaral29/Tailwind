@@ -5,12 +5,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <div>
 
+    <!-- Direção do Flex -->
+    <div class="flex flex-row bg-red-300 text-black">
+        <div class="bg-red-600 p-6 m-4 border-2 border-red-900">1</div>
+        <div class="bg-red-600 p-6 m-4 border-2 border-red-900">2</div>
+        <div class="bg-red-600 p-6 m-4 border-2 border-red-900">3</div>
     </div>
+    <div class="flex flex-col bg-blue-300">
+        <div class="bg-blue-600 p-6 m-4 border-2 border-blue-900">1</div>
+        <div class="bg-blue-600 p-6 m-4 border-2 border-blue-900">2</div>
+        <div class="bg-blue-600 p-6 m-4 border-2 border-blue-900">3</div>
+    </div>
+    <div class="flex flex-row-reverse bg-green-300">
+        <div class="bg-green-600 p-6 m-4 border-2 border-green-900">1</div>
+        <div class="bg-green-600 p-6 m-4 border-2 border-green-900">2</div>
+        <div class="bg-green-600 p-6 m-4 border-2 border-green-900">3</div>
+    </div>
+    <div class="flex flex-col-reverse bg-purple-300">
+        <div class="bg-purple-600 p-6 m-4 border-2 border-purple-900">1</div>
+        <div class="bg-purple-600 p-6 m-4 border-2 border-purple-900">2</div>
+        <div class="bg-purple-600 p-6 m-4 border-2 border-purple-900">3</div>
+    </div>
+
+    <!-- Exercício 5 -->
+    <div class="flex flex-col bg-gray-400 text-white">
+        <div class="bg-gray-500 p-6 m-4 border-2 border-gray-900">1</div>
+        <div class="bg-gray-600 p-6 m-4 border-2 border-gray-900">2</div>
+        <div class="bg-gray-700 p-6 m-4 border-2 border-gray-900">3</div>
+        <div class="bg-gray-800 p-6 m-4 border-2 border-gray-900">4</div>
+        <div class="bg-gray-900 p-6 m-4 border-2 border-gray-900">5</div>
+        <div class="bg-black p-6 m-4 border-2 border-gray-900">6</div>
+    </div>
+
+    <!-- Wrap -->
+    <div class="flex flex-wrap bg-red-300">
+        <div class="bg-red-400 p-6 m-4 border-2 border-red-900">1</div>
+        <div class="bg-red-500 p-6 m-4 border-2 border-red-900">2</div>
+        <div class="bg-red-600 p-6 m-4 border-2 border-red-900">3</div>
+        <div class="bg-red-700 p-6 m-4 border-2 border-red-900">4</div>
+        <div class="bg-red-800 p-6 m-4 border-2 border-red-900">5</div>
+        <div class="bg-red-900 p-6 m-4 border-2 border-red-900">6</div>
+    </div>
+
+    <!-- Flex -> se alongam por toda div (quando tem mais elementos eles dividem toda a div) -->
+    <div class="flex container bg-green-400 p-8">
+        <div class="flex-1 bg-green-800">1</div>
+        <div class="flex-1 bg-green-900">2</div>
+        <div class="flex-none bg-green-500">3</div> <!-- Apenas a propria largura -->
+    </div>
+
+    <!-- Ordem dos elementos -->
+    <div class="flex flex-wrap bg-purple-300">
+        <div class="bg-purple-400 p-6 m-3 order-last">1</div>
+        <div class="bg-purple-500 p-6 m-3 order-5">2</div>
+        <div class="bg-purple-600 p-6 m-3 order-4">3</div>
+        <div class="bg-purple-700 p-6 m-3 order-3">4</div>
+        <div class="bg-purple-800 p-6 m-3 order-2">5</div>
+        <div class="bg-purple-900 p-6 m-3 order-first">6</div>
+    </div>
+
+    <!-- Exercício 6 -->
+    <div class="flex container bg-gray-500 p-6">
+        <div class="flex bg-gray-600 p-4 m-4 lg:order-last">1</div>
+        <div class="flex bg-gray-700 p-4 m-4">2</div>
+        <div class="flex bg-gray-800 p-4 m-4 lg:order-first">3</div>
+    </div>
+
 </body>
 
 </html>
