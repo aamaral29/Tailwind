@@ -22319,6 +22319,10 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-arial {
+  font-family: Arial;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -22382,6 +22386,10 @@ video {
 .text-9xl {
   font-size: 8rem;
   line-height: 1;
+}
+
+.text-12xl {
+  font-size: 8rem;
 }
 
 .font-thin {
@@ -52921,6 +52929,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-arial {
+    font-family: Arial;
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -52984,6 +52996,10 @@ video {
   .sm\:text-9xl {
     font-size: 8rem;
     line-height: 1;
+  }
+
+  .sm\:text-12xl {
+    font-size: 8rem;
   }
 
   .sm\:font-thin {
@@ -83171,6 +83187,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-arial {
+    font-family: Arial;
+  }
+
   .md\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -83234,6 +83254,10 @@ video {
   .md\:text-9xl {
     font-size: 8rem;
     line-height: 1;
+  }
+
+  .md\:text-12xl {
+    font-size: 8rem;
   }
 
   .md\:font-thin {
@@ -113421,6 +113445,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-arial {
+    font-family: Arial;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -113484,6 +113512,10 @@ video {
   .lg\:text-9xl {
     font-size: 8rem;
     line-height: 1;
+  }
+
+  .lg\:text-12xl {
+    font-size: 8rem;
   }
 
   .lg\:font-thin {
@@ -143671,6 +143703,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-arial {
+    font-family: Arial;
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -143734,6 +143770,10 @@ video {
   .xl\:text-9xl {
     font-size: 8rem;
     line-height: 1;
+  }
+
+  .xl\:text-12xl {
+    font-size: 8rem;
   }
 
   .xl\:font-thin {
@@ -173921,6 +173961,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .\32xl\:font-arial {
+    font-family: Arial;
+  }
+
   .\32xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -173984,6 +174028,10 @@ video {
   .\32xl\:text-9xl {
     font-size: 8rem;
     line-height: 1;
+  }
+
+  .\32xl\:text-12xl {
+    font-size: 8rem;
   }
 
   .\32xl\:font-thin {

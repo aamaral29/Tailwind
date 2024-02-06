@@ -2,7 +2,14 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'arial': 'Arial' // aplicando a fonte Arial a nova fonte chamada de arial
+      },
+      fontSize: {
+        '12xl': "8rem"
+      },
+    },
   },
   plugins: [],
 }
