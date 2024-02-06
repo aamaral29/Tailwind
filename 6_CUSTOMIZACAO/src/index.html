@@ -12,6 +12,28 @@
 
 <body>
 
+    <!-- Precisa descomentar o tailwind.config.js para aplciar essas modificações a baixo -->
+    <div class="m-10 bg-gray-400 rounded-2xl">
+        <h1 class="text-center text-2xl text-black">CUSTOMIZAÇÃO</h1>
+        <h1 class="text-center text-2xl text-black tablet:text-4xl tablet:text-blue-600">CUSTOMIZAÇÃO TABLET 1</h1>
+        <h1 class="text-center text-2xl text-black tablet:text-xs tablet:text-green-600">CUSTOMIZAÇÃO TABLET 2</h1>
+        <h1 class="text-center text-2xl text-black cel:text-xs cel:text-red-600">CUSTOMIZAÇÃO CEL 1</h1>
+        <!-- Neste caso seria diminuindo -->
+    </div>
+
+    <!-- Utilizando o extends -->
+    <div class="m-10 bg-gray-400 rounded-2xl">
+        <h1 class="text-center text-2xl text-black lg:text-new-blue">CUSTOMIZAÇÃO</h1>
+        <p class="text-center text-2xl text-black md:text-gray-900">GRAY CUSTOM</p>
+        <p class="text-center text-2xl text-black md:text-red-600">RED CUSTOM</p>
+    </div>
+
+    <!-- Alterando o spacing -->
+    <div class="m-10 bg-gray-400 rounded-2xl">
+        <h1 class="text-center text-2xl text-black lg:text-new-blue">CUSTOMIZAÇÃO</h1>
+        <p class="text-center text-2xl text-black ">CINZA CUSTOM</p> <!--Quando deseja um limite superior a 20 no padding e margin-->
+    </div>
+
 </body>
 
 </html>
