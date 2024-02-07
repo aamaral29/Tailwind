@@ -17728,6 +17728,14 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-cidade {
+  background-image: url(../img/bg_cidade.jpg);
+}
+
+.bg-cidade-noite {
+  background-image: url(../img/city.jpg);
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -48330,6 +48338,14 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-cidade {
+    background-image: url(../img/bg_cidade.jpg);
+  }
+
+  .sm\:bg-cidade-noite {
+    background-image: url(../img/city.jpg);
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -78578,6 +78594,14 @@ video {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-cidade {
+    background-image: url(../img/bg_cidade.jpg);
+  }
+
+  .md\:bg-cidade-noite {
+    background-image: url(../img/city.jpg);
   }
 
   .md\:from-transparent {
@@ -108830,6 +108854,14 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-cidade {
+    background-image: url(../img/bg_cidade.jpg);
+  }
+
+  .lg\:bg-cidade-noite {
+    background-image: url(../img/city.jpg);
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -139080,6 +139112,14 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-cidade {
+    background-image: url(../img/bg_cidade.jpg);
+  }
+
+  .xl\:bg-cidade-noite {
+    background-image: url(../img/city.jpg);
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -169328,6 +169368,14 @@ video {
 
   .\32xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-cidade {
+    background-image: url(../img/bg_cidade.jpg);
+  }
+
+  .\32xl\:bg-cidade-noite {
+    background-image: url(../img/city.jpg);
   }
 
   .\32xl\:from-transparent {
