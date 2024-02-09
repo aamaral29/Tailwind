@@ -1,6 +1,7 @@
 import { User } from "../types/User";
 import { useState, FormEvent } from "react";
 import { validate } from "../utils/Validate";
+import { Button } from "antd";
 
 const Form = () => {
 
@@ -85,6 +86,7 @@ const Form = () => {
                 className="bg-slate-600 hover:bg-slate-500 font-medium text-sm py-2 px-4 rounded-lg text-white">
                 Cadastrar
             </button>
+            {/* <Button className="bg-slate-600 hover:bg-slate-500 font-medium text-sm py-2 px-4 rounded-lg text-white">Cadastrar</Button> */}
         </form>
     );
 
